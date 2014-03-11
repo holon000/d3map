@@ -53,7 +53,9 @@ $(document).ready(function() {
               d3.helper.tooltip()
                 .attr({'class': 'meetup-tooltip'})
 //                .text(function(d) { return d.city; })
-                .text(function(d) { return " == " +  d.city + " == <br>hubsize: "; d.hubsize })
+
+//                .text(function(d) { return "  " +  d.city + "  <br>hubsize: "; d.hubsize })
+                    .text(function(d) { return "  " +  d.city + "  <br>hubsize: " +  d.hubsize + "<br>roles: " + d.roles + "<br>people: " + d.people })
             );
     });
 
