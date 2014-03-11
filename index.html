@@ -24,18 +24,24 @@
 
 .noclicks { pointer-events:none; }
 
-.point {  opacity:.6; }
+//cities
+.point {
+  opacity:.6; 
+  radius: 3;
+}
 
 .arcs {
   opacity:.1;
   stroke: gray;
   stroke-width: 3;
 }
+
 .flyers {
   stroke-width:1;
   opacity: .6;
   stroke: darkred; 
 }
+
 .arc, .flyer {
   stroke-linejoin: round;
   fill:none;
@@ -47,9 +53,14 @@
 </style>
 
 <body>
+<h1>map</h1>
+<p id="info">info</p>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+
 <script>
 
 d3.select(window)
@@ -168,13 +179,15 @@ function ready(error, world, places) {
       .attr("d", path);
 
   // spawn links between cities as source/target coord pairs
+ var i = 0
   places.features.forEach(function(a) {
     places.features.forEach(function(b) {
-      if (a !== b) {
+      if ((a !== b) & (i<200)) {
         links.push({
           source: a.geometry.coordinates,
           target: b.geometry.coordinates
         });
+        i+=1
       }
     });
   });
@@ -266,6 +279,7 @@ function mousedown() {
 }
 function mousemove() {
   if (m0) {
+   //pan world			
     var m1 = [d3.event.pageX, d3.event.pageY]
       , o1 = [o0[0] + (m1[0] - m0[0]) / 6, o0[1] + (m0[1] - m1[1]) / 6];
     o1[1] = o1[1] > 30  ? 30  :
@@ -274,6 +288,12 @@ function mousemove() {
     proj.rotate(o1);
     sky.rotate(o1);
     refresh();
+  } else {
+  //check hover		    
+//d3.event.pageX, d3.event.pageY
+
+
+		    $('#info').text(d3.event.pageY)
   }
 }
 function mouseup() {
