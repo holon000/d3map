@@ -1,24 +1,7 @@
-code,city,country,lat,lon,url
-LON,LONDON,UNITED KINGDOM,51.50722,-0.12750,http://www.meetup.com/ethereum/
-MIA,MIAMI,USA,25.82,-80.28,http://www.meetup.com/Ethereum-Miami/
-PDX,PORTLAND,USA,45.60,-122.60,http://www.meetup.com/Portland-Ethereum-Meetup/
-SJC,SAN JOSE,USA,37.37,-121.92,http://www.meetup.com/EthereumSiliconValley/
-TLV,TEL AVIV,ISRAEL,32.0666700,34.7666700,http://www.meetup.com/Ethereum-Tel-Aviv/
-YTO,TORONTO,CANADA,43.7001100,-79.4163000,http://www.meetup.com/Bitcoin-Toronto/
-MAN,MANCHESTER,UNITED KINGDOM,53.479251,-2.247926,http://www.meetup.com/Ethereum-Manchester/
-AMS,AMSTERDAM,NETHERLANDS,52.374004,4.890359,http://www.meetup.com/Amsterdam-Ethereum-Meetup/
-TYO,TOKYO,JAPAN,35.6148800,139.5813000,http://www.meetup.com/Ethereum-Tokyo-Meetup/
-CHI,CHICAGO,USA,41.90,-87.65,http://www.meetup.com/Chicago-Ethereum-Meetup/
-PAR,PARIS,FRANCE,48.8534100,2.3488000,http://www.meetup.com/Ethereum-Paris/
-SAN,SAN DIEGO,USA,32.73,-117.17,http://www.meetup.com/San-Diego-Ethereum-Meetup/
-YMQ,MONTREAL,CANADA,45.5088400,-73.5878100,http://www.meetup.com/Montreal-Ethereum-Meetup/
-MEL,MELBOURNE,AUSTRALIA,-37.8140000,144.9633200,http://www.meetup.com/Melbourne-Ethereum-Meetup/
-HAG,THE HAGUE,NETHERLANDS,52.0766700,4.2986100,http://www.meetup.com/Bitcoin-Den-Haag/
-YVR,VANCOUVER,CANADA,49.2496600,-123.1193400,http://www.meetup.com/Vancouver-Ethereum-Meetup
-MAD,MADRID,SPAIN,40.4165000,-3.7025600,http://www.meetup.com/Ethereum-Spain/
-LAX,LOS ANGELES,USA,34.0522300,-118.2436800,http://www.meetup.com/Los-Angeles-Ethereum/
-HKG,HONG KONG,HONG KONG,22.2855200,114.1576900,http://www.meetup.com/Ethereum-Hong-Kong/
-VIE,VIENNA,AUSTRIA,48.2084900,16.3720800,http://www.meetup.com/Ethereum-Vienna/
-BUH,BUCHAREST,ROMANIA,44.4322500,26.1062600,http://www.meetup.com/Ethereum-Bucharest/
-SIN,SINGAPORE,SINGAPORE,1.2896700,103.8500700,http://www.meetup.com/Singapore-Ethereum-Meetup/
-NYC,NEW YORK,USA,40.7142700,-74.0059700,http://www.meetup.com/EthereumNYC/
+code,city,country,lat,lon,url,hubsize,roles,people
+LON,LONDON,UNITED KINGDOM,51.50722,-0.12750,http://www.meetup.com/ethereum/,Small hub,Communication,Stephan Tual
+YTO,TORONTO,CANADA,43.7001100,-79.4163000,http://www.meetup.com/Bitcoin-Toronto/,Large hub,Development,Vitalik Buterin
+AMS,AMSTERDAM,NETHERLANDS,52.374004,4.890359,http://www.meetup.com/Amsterdam-Ethereum-Meetup/,Small hub,Generic role,Generic person
+SIV,SILICON VALLEY,USA,34.0522300,-118.2436800,http://www.meetup.com/Los-Angeles-Ethereum/,Small hub,Generic role,Generic person
+NYC,NEW YORK,USA,40.7142700,-74.0059700,http://www.meetup.com/EthereumNYC/,Small hub,Generic role,Generic person
+ZUG,ZUG,SWITZERLAND,40.7142700,-74.0059700,http://www.meetup.com/EthereumNYC/,Large hub,Development,Generic person
