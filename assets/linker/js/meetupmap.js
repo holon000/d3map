@@ -55,7 +55,7 @@ $(document).ready(function() {
 //                .text(function(d) { return d.city; })
 //test
 //                .text(function(d) { return "  " +  d.city + "  <br>hubsize: "; d.hubsize })
-                    .text(function(d) { return "  " +  d.city + "  <br>hubsize: " +  d.hubsize + "<br>roles: " + d.roles + "<br>people: " + d.people })
+                    .text(function(d) { return "  " +  d.city + "  <br>Hubsize: " +  d.hubsize + "<br>Roles: " + d.roles + "<br>People: " + d.people })
             );
     });
 

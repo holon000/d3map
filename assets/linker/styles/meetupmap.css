@@ -1,8 +1,14 @@
 #meetupmap {
   margin-top: 20px;
   padding-top: 10px; 
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   border: 1px solid lightgrey;
+  max-width:900px;
+  margin:0 auto;
+}
+
+.meetupmap {
+  padding-top:10px;
 }
 
 .active {
@@ -29,3 +35,4 @@ path {
   border-radius: 2px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+

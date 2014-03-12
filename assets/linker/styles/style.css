@@ -5,8 +5,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-transform:lowercase;
-  margin-bottom:1em;
-  margin-top:1em;
+  margin-bottom:0.2em;
+  margin-top:0.5em;
 }
 
 a {
@@ -19,13 +19,13 @@ img {
 }
 
 .content-box {
-  padding-bottom:30px;
-  padding-top:35px;
+  padding-bottom:0px;
+  padding-top:0px;
 }
 
 footer {
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 2em;
 }
 
 
