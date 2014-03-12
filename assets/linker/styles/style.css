@@ -37,6 +37,10 @@ footer {
 }
 */
 
+.sidebarinfo {
+  padding-top:10px;
+}
+
 .maincontent {
   background-image:url('/images/bg-img.jpg?20140310130500');
   background-color: #f5f5f5;
@@ -222,7 +226,6 @@ footer {
   background-color: #fff;
   border-radius: 0;
 }
-
 
 .hr {
   border-bottom: 1px solid #494949;
